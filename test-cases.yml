@@ -78,146 +78,186 @@
 
 - id: 4
   summary: |
-    
+    Авторизация через Discord
   requirement: |
-    
+    Должна произойти авторизация на сайте
   prerequisites: |
-    
+    Мы должны иметь учетную запись Discord и быть в ней авторизованы
   test-data: |
-    
+    empty
   steps:
-   
+   Нажимаем кнопку "Sign in"
+   Нажимаем кнопку "Sign in with Discord"
+   В появившемся окне Discord нажимаем кнопкку "Авторизовать"
   expected-result: |
+    Происходит авторизация на сайт, находимся на странице выбора баттла
 
 - id: 5
   summary: |
-    
+    Авторизация через GitHub
   requirement: |
-    
+    Должна произойти авторизация на сайте
   prerequisites: |
-    
+    Имеем зарегистрированный и авторизованный аккаунт на GitHub
   test-data: |
-    
+    empty
   steps:
-   
+   Нажимаем на кнопку "Sign in"
+   Нажимаем на кнопку "Sign in with Github"
+   В появившемся окне подтверждаем связку учетных записей
   expected-result: |
+    Происходит успешная авторизация на сайте, находимся на странице выбора баттла
 
 - id: 6
   summary: |
-    
+    Пробный баттл без авторизации
   requirement: |
-    
+    Должна быть возможность сыграть пробный баттл без авторизованной учебной записи
   prerequisites: |
-    
+    Находимся на главной странице - https://codebattle.hexlet.io/ , учетная запись не авторизована
   test-data: |
-    
+    empty
   steps:
-   
+   Нажимаем на кнопку "Try simple battle"
   expected-result: |
-
+    Открывается страница с баттлом, интерфейс доступен для выполнения задания
+    
 - id: 7
   summary: |
-    
+    Регистрация с коротким именем
   requirement: |
-    
+    Регистрация не должна пройти проверку на валидацию по имени
   prerequisites: |
-    
+    Находимся на странице регистрации - https://codebattle.hexlet.io/users/new?next=/
   test-data: |
-    
+    nick: qw
+    email: test_user@gmail.com
+    password: testpass
   steps:
-   
+   Заполняем поля для регистрации 
+   Нажимаем кнопку "Submit"
   expected-result: |
+    Регистрация не проходит, под полем 'Nickname' появляется сообщение об ошибке - "Should be from 3 to 16 characters"
 
 - id: 8
   summary: |
-    
+    Регистрация с длинным именем
   requirement: |
-    
+    Регистрация не должна пройти проверку на валидацию по имени
   prerequisites: |
-    
+    Находимся на странице регистрации - https://codebattle.hexlet.io/users/new?next=/
   test-data: |
-    
+    nick: testuser123456789
+    email: test_user@gmail.com
+    password: testpass
   steps:
-   
+   Заполняем поля для регистрации 
+   Нажимаем кнопку "Submit"
   expected-result: |
+    Регистрация не проходит, под полем 'Nickname' появляется сообщение об ошибке - "Should be from 3 to 16 characters"
 
 - id: 9
   summary: |
-    
+    Регистрация с именем, состоящим из цифр
   requirement: |
-    
+    Регистрация не должна пройти проверку на валидацию по имени
   prerequisites: |
-    
+    Находимся на странице регистрации - https://codebattle.hexlet.io/users/new?next=/
   test-data: |
-    
+    nick: 123
+    email: test_user@gmail.com
+    password: testpass
   steps:
-   
+   Заполняем поля для регистрации 
+   Нажимаем кнопку "Submit"
   expected-result: |
+    Регистрация не проходит, получаем ошибку - 
+    "Should contain Latin letters, numbers and underscores. Only begin with latin letter"
 
 - id: 10
   summary: |
-    
+    Проверка валидности почты при регистрации
   requirement: |
-    
+    Невалидная почта не должна пройти регистрацию
   prerequisites: |
-    
+    Находимся на странице регистрации - https://codebattle.hexlet.io/users/new?next=/
   test-data: |
-    
+    nick: testuser123
+    email: test_user@gmail
+    password: testpass
   steps:
-   
+   Вводим данные для регистрации
+   Нажимаем кнопку "Submit"
   expected-result: |
+    Появляется сообщение об ошибке - "Invalid email"
 
 - id: 11
   summary: |
-    
+    Проверка валидности почты при регистрации
   requirement: |
-    
+    Невалидная почта не должна пройти регистрацию
   prerequisites: |
-    
+    Находимся на странице регистрации - https://codebattle.hexlet.io/users/new?next=/
   test-data: |
-    
+    nick: testuser123
+    email: test_usergmail.com
+    password: testpass
   steps:
-   
+   Вводим данные для регистрации
+   Нажимаем кнопку "Submit"
   expected-result: |
+    Появляется сообщение об ошибке - "Invalid email"
 
 - id: 12
   summary: |
-    
+    Проверка валидности почты при регистрации
   requirement: |
-    
+    Невалидная почта не должна пройти регистрацию
   prerequisites: |
-    
+    Находимся на странице регистрации - https://codebattle.hexlet.io/users/new?next=/
   test-data: |
-    
+    nick: testuser123
+    email: @gmail.com
+    password: testpass
   steps:
-   
+   Вводим данные для регистрации
+   Нажимаем кнопку "Submit"
   expected-result: |
+    Появляется сообщение об ошибке - "Invalid email"
 
 - id: 13
   summary: |
-    
+    Проверка валидности длины пароля
   requirement: |
-    
+    Невалидный пароль не должен пройти регистрацию
   prerequisites: |
-    
+    Находимся на странице регистрации - https://codebattle.hexlet.io/users/new?next=/
   test-data: |
-    
+    nick: testuser123
+    email: test_user@gmail.com
+    password: testp
   steps:
-   
+   Вводим данные для регистрации
+   Нажимаем кнопку "Submit"
   expected-result: |
+    Появляется сообщение с ошибкой - "Should be from 6 to 16 characters"
 
 - id: 14
   summary: |
-    
+    Проверка валидности длины пароля
   requirement: |
-    
+    Невалидный пароль не должен пройти регистрацию
   prerequisites: |
-    
+    Находимся на странице регистрации - https://codebattle.hexlet.io/users/new?next=/
   test-data: |
-    
+    nick: testuser123
+    email: test_user@gmail.com
+    password: testpass123456789
   steps:
-   
+   Вводим данные для регистрации
+   Нажимаем кнопку "Submit"
   expected-result: |
+    Появляется сообщение с ошибкой - "Should be from 6 to 16 characters"
 
 - id: 15
   summary: |
