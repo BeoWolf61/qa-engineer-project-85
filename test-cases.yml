@@ -1,5 +1,6 @@
 ---
-- summary: |
+- id:
+  summary: |
     Краткое описание тест-кейса. Пример: Проверка входа пользователя с существующими логином и паролем
   requirement: |
     Тестируемое требование. Например: При верном вводе логине и пароля пользователь должен войти в систему
@@ -15,3 +16,277 @@
     - Нажимаем кнопку «Войти»
   expected-result: |
     Пользователь должен попасть на главную страницу
+
+- id: 1
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 2
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 3
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 4
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 5
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 6
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 7
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 8
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 9
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 10
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 11
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 12
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 13
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 14
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 15
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 16
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 17
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 18
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 19
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 20
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+
+- id: 21
+  summary: |
+    
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+   
+  expected-result: |
+    
