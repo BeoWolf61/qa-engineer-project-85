@@ -1,0 +1,108 @@
+---
+- summary: |
+    Регистрация на сайте через почту
+  status: pass
+
+- summary: |
+    Авторизация по зарегестрированной учетной записи
+  status: pass
+
+- summary: |
+    Восстановление доступа к аккаунту через email
+  status: pass
+
+- summary: |
+    Авторизация через Discord
+  status: pass
+
+- summary: |
+    Авторизация через GitHub
+  status: pass
+
+- summary: |
+    Пробный баттл без авторизации
+  status: pass
+
+- summary: |
+    Регистрация с коротким именем
+  status: pass
+
+- summary: |
+    Регистрация с длинным именем
+  status: pass
+
+- summary: |
+    Регистрация с именем, состоящим из цифр
+  status: pass
+
+- summary: |
+    Проверка валидности почты при регистрации
+  status: pass
+
+- summary: |
+    Проверка валидности почты при регистрации
+  status: pass
+
+- summary: |
+    Проверка валидности почты при регистрации
+  status: pass
+
+- summary: |
+    Проверка валидности длины пароля
+  status: pass
+
+- summary: |
+    Проверка валидности длины пароля
+  status: pass
+
+- summary: |
+    Создание баттла с ботом
+  status: pass
+
+- summary: |
+    Создание баттла с рандомным пользователем
+  status: pass
+
+- summary: |
+    Создание баттла с конкретным пользователем
+  status: pass
+
+- summary: |
+    Создание турнира
+  status: fail
+
+- summary: |
+    Просмотр личного профиля пользователя
+  status: pass
+
+- summary: |
+    Редактирование профиля по никнейму
+  status: pass
+
+- summary: |
+    Редактирование профиля по языку программирования
+  status: pass
+
+- summary: |
+    Просмотр лидборда
+  status: pass
+
+- summary: |
+    Просмотр истории последних игр
+  status: pass
+
+- summary: |
+    Проверка запросов на сервер при авторизации
+  status: pass
+
+- summary: |
+     Проверка запросов на сервер при создании игры
+  status: pass
+
+- summary: |
+    
+  status: fail
+
+- summary: |
+    
+  status: fail
